@@ -8,4 +8,5 @@ A turn-based game similar to the style of pokemon used to demonstrate a base kno
 SortingAlgorithms:
 Compares two sorting algorithms; Insertion sort and Merge Sort, It is used to show how both algorithms handle larger size lists. Coded in Java, compiled and run through SortingDriver.java
 
+NonLinearSequences:
 
