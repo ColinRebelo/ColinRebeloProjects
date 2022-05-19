@@ -1,0 +1,141 @@
+html, body {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-image: url("../images/StaticBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center !important;
+    font-size:50px !important;
+    font-weight: bolder;
+}
+h2{
+    color: white;
+    text-align: center !important;
+    font-size:20px !important;
+    font-weight: bold;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 16px !important;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+.headerLink{
+    color: white !important;
+}
+.link{
+    color: rgb(169, 164, 164);
+}
+.link:hover{
+    color: white;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.subHeaderOptions{
+    text-align: center;
+}
+
+.navbarBG{
+    background-color: #4e0d69 !important;
+    border-color: #4e0d69 !important;
+    display: block !important;
+}
+.button{
+    background-color: #4e0d69 !important;
+    border-color: #4e0d69 !important;
+    color: rgb(169, 164, 164) !important;
+}
+.button:hover{
+    color: white;
+}
+a.buttonRes{
+    text-align: center !important;
+}
+
+.contactTextBox{
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.buttonRes{
+    background-color: rgb(169, 164, 164);
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    border-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    color:rgb(169, 164, 164);
+    display:contents;
+    
+}
+
+#dogButton{
+    color: white !important;
+}
+
+.imageContainer{
+    z-index: -1;
+    width: auto;
+    height: 100%;        
+    background: url("../images/StaticBackground.jpg") no-repeat;
+    background-size: cover;
+
+    
+}
+
+.videoContainer {
+    z-index: -1;
+    border-right-style: solid;
+    border-right-width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+.videoContainer video {
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .aboutMeTextBox{
+
+    background: rgba(0,0,0,0.4);
+    width: auto;
+    position: absolute;
+    left:50%;
+    height: 80vm;
+    padding: 20px;
+    transform: translate(-50%,20%);
+    text-align: center;
+}
+
+#dogPicture{
+    position: absolute;
+    left:50%;
+    height: 40%;
+    transform: translate(-50%,105%);
+}

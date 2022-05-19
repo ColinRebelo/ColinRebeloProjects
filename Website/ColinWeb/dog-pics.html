@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script language="JavaScript" type="module" src="scripts/dog-pics.js"></script>
+
+    <title>Miscellaneous</title>
+</head>
+<body>
+    <div class="navBarHeader">
+    <nav class="navbar is-flex-mobile navbar-dark navbarBG">
+        <div class="nameHolder">
+            <h1 class="Header1">
+                <a class="headerLink" id="headerLink" href="index.html">Colin Rebelo</i></a>
+            </h1>
+        </div>
+        <div class="subHeaderOptions">
+            <button class="button is-medium" id="AboutMe">
+                <a class="link" id="link" href="about-me.html"><i class="fa fa-question-circle"></i> About Me</a></button>
+            </button>            
+            <button class="button is-medium" id="MyProjects">
+                <a class="link" id="link" href="https://github.com/ColinRebelo/ColinRebeloProjects" target="_blank"><i class="fa fa-github" style="font-size:24px"></i> My Projects</i></a>
+            </button>      
+            <button class="button is-medium" id="Qualifications">
+                <a class="link" id="link" href="qualifications.html"><i class="fa fa-file-text-o"></i> Qualifications</i></a>
+            </button>    
+            <button class="button is-medium" id="DogPics">
+                <a class="link" id="link" href="dog-pics.html"><i class="fa fa-solid fa-cubes"></i> Miscellaneous</a></button>
+            </button>        
+        </div>
+        
+    </div> 
+    <!-- <div class="videoContainer">
+        <video class="backgroundVideo" id="backgroundVideo" autoplay="" loop="" muted="">
+            <source class="movingVideo" id="movingVideo" src="images/purpleBackground.mov"></source>
+        </video>
+        <img src="images/StaticBackground.jpg"></img>
+    </div> -->
+    <div class="imageContainer">
+    <div class="aboutMeTextBox">
+        <h2>
+            Welcome to the Miscellaneous section of my webpage!
+        </h2>
+        <br>
+        <h3>This section was just an excuse for me to incorporate a little javascript practice into my website. 
+            <br>
+            And with that, this button will show you pictures of my dog
+        </h3>
+        <br>
+        <button class="button" id="dogButton">Generate Dog Picture</button>
+        <br>
+        <br>
+    </div>
+    <img id="dogPicture" src=""></img>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
